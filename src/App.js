@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import P5Wrapper from "react-p5-wrapper";
 //import P5Wrapper from "./P5Wrapper";
 import sketch from "./p5-sketch";
+import Header from "./Header";
 
 class App extends Component {
   state = { sketch: sketch };
@@ -19,7 +20,6 @@ class App extends Component {
             "z-index": -99
           }}
         />
-
         <div
           style={{
             "z-index": 1,
@@ -28,11 +28,7 @@ class App extends Component {
             top: "100px"
           }}
         >
-          <h1>Hello! Im Yuko. Hire meeeee</h1>
-          <button>test</button>
-          <button>test</button>
-          <button>test</button>
-          <button>test</button>
+          <Header />
         </div>
       </div>
     );

@@ -3,28 +3,37 @@ import React, { Component } from 'react';
 class Header extends Component {
   render() {
     return (
-      <div>
-        <h1>Hello! Im Yuko Kanaki Mazurek. </h1>
+      <div style={{ textAlign: 'center' }}>
+        <a href="#">ABOUT</a>
+        <a href="#"> PORTFOLIO</a>
+        <a href="#"> CONTACT</a>
 
+        <h1>Hi! I'm Yuko, a self-taught web developer.</h1>
+        <h3>Born and raised in Japan, live in Vancouver.</h3>
+        <br />
+        <br />
+        <br />
+        <h3>My Skills: </h3>
         <h2>
-          I am currently looking for opportunities where I can contribute as a
-          fontend developer.
+          {' '}
+          HTML, CSS, JavaScript (React, Redux),
+          <br />
+          Node.js, MongoDB
         </h2>
-        <h2>My Skills: HTML, CSS, Javascript (React, Redux)</h2>
-        <h2>My Skills: Node.js, MongoDB</h2>
-        <button
-          style={{
-            width: '300px',
-            height: '50px',
-            background: 'black',
-            color: 'white'
-          }}
-        >
-          My Project
-        </button>
       </div>
     );
   }
 }
 
 export default Header;
+
+// <button
+// style={{
+//   width: '300px',
+//   height: '50px',
+//   background: 'black',
+//   color: 'white'
+// }}
+// >
+// My Project
+// </button>

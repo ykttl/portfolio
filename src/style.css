@@ -1,0 +1,33 @@
+.container {
+  width: 80%;
+}
+
+.screenshot {
+  width: 100%;
+  max-width: 500px;
+  height: 'auto';
+  border: #000 solid;
+}
+
+.portfolio-container {
+  /* z-index: 2; */
+}
+
+.project-link-btn {
+  background: #000;
+  color: white;
+  margin-right: 10px;
+}
+.skills {
+  /* color: red; */
+}
+
+.column {
+  height: 500px;
+  padding: 10px;
+}
+
+a {
+  border: none;
+  color: white;
+}

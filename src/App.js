@@ -4,10 +4,13 @@ import P5Wrapper from 'react-p5-wrapper';
 import sketch from './p5-sketch';
 import Header from './Header';
 import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 class App extends Component {
   state = { sketch: sketch };
-
+  componentDidMount() {
+    console.log('owatta!');
+  }
   render() {
     return (
       <div>
@@ -33,6 +36,7 @@ class App extends Component {
         </div>
 
         <Portfolio />
+        <Contact />
       </div>
     );
   }

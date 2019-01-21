@@ -1,7 +1,7 @@
 export default [
   {
-    name: 'Portfolio',
-    img: '',
+    name: 'Portfolio Site',
+    img: 'screenshot/weather.png',
     skills: 'React, p5.js',
     description: 'Portfolio website desu',
     demo_link: '',
@@ -19,7 +19,7 @@ export default [
     name: 'Real time Chat and Drawing',
     img: 'screenshot/realtime.png',
     skills: 'React, Express, Socket.io',
-    description: '',
+    description: 'Open this with two windows and try!',
     demo_link: 'https://chat-and-canvas.herokuapp.com/',
     github: 'https://github.com/ykttl/realtime-chat-drawing'
   },
@@ -50,41 +50,33 @@ export default [
   {
     name: 'Recipe Note',
     img: 'screenshot/recipe.png',
-    skills: [],
-    description: 'JavaScript',
+    skills: 'JavaScript',
+    description: '',
     demo_link: 'https://ykttl.github.io/recipe-app/',
     github: 'https://github.com/ykttl/recipe-app'
   },
   {
     name: 'Coffee Maker',
     img: 'screenshot/coffee.png',
-    skills: [],
-    description: 'JavaScript',
+    skills: 'JavaScript',
+    description: '',
     demo_link: 'https://ykttl.github.io/coffeeMaker/',
     github: 'https://github.com/ykttl/coffeeMaker'
   },
   {
     name: 'Local Weather Checker',
     img: 'screenshot/weather.png',
-    skills: [],
-    description: 'jQuery',
+    skills: 'jQuery',
+    description: '',
     demo_link: 'https://ykttl.github.io/local-weather-checker/',
     github: 'https://github.com/ykttl/local-weather-checker'
   },
   {
     name: 'Wikipedia Viewer',
     img: 'screenshot/wiki.png',
-    skills: [],
-    description: 'jQuery',
+    skills: 'jQuery',
+    description: 'Following FreecodeAcademy.',
     demo_link: 'https://ykttl.github.io/wikipedia/',
     github: 'https://github.com/ykttl/wikipedia'
-  },
-  {
-    name: '',
-    img: '',
-    skills: [],
-    description: '',
-    demo_link: '',
-    github: ''
   }
 ];

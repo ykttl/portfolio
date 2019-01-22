@@ -1,33 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
 .container {
   width: 80%;
+
+  /* background: #000; */
+  /* font-family: 'Nunito', sans-serif; */
+}
+
+/* 
+.header-container {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+} */
+
+.header a {
+  color: pink;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*====== p5.js =====*/
+.drawing {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -99;
+}
+
+.landing {
+  z-index: 1;
+  position: absolute;
+  /* left: 700px;
+  top: 100px; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.landing-container {
+  margin: 0 auto;
+  width: 400px;
+  background-color: khaki;
+}
+
+/*===== Portfolio =====*/
+
+.portfolio-container {
+  /* z-index: 2; */
+}
+
+.portfolio-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-column {
+  /* height: 500px; */
+  padding: 10px;
+  /* border: solid pink 1px; */
+  text-align: center;
+  /* display: table; */
+  margin-bottom: 30px;
+}
+
+.content {
+  /* margin: 5px; */
+  height: 100%;
+  padding: 20px 20px 10px;
+  border: solid #04b2b1 1px;
+}
+
+.screenshot-container {
+  text-align: center;
 }
 
 .screenshot {
   width: 100%;
   max-width: 500px;
   height: 'auto';
-  border: #000 solid;
+  border: #113865 solid 2px;
 }
 
-.portfolio-container {
-  /* z-index: 2; */
+.project-skills {
+  font-size: 2rem;
+  /* color: #04b2b1; */
+  margin-top: 15px;
+  color: #113865;
+}
+
+.project-name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #113865;
 }
 
 .project-link-btn {
-  background: #000;
+  background: #04b2b1;
   color: white;
-  margin-right: 10px;
-}
-.skills {
-  /* color: red; */
-}
-
-.column {
-  height: 500px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border: none;
+  font-size: 2rem;
   padding: 10px;
 }
 
-a {
-  border: none;
+/* Contact */
+
+.contact-container {
+  background: #113865;
+  text-align: center;
   color: white;
+}
+
+.contact-font {
+  font-size: 3rem;
+  padding: 20px;
+}
+
+ul {
+  text-align: center;
+}
+
+span {
+  font-size: 4em;
+  margin: 20px;
 }

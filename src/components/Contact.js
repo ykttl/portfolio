@@ -18,7 +18,7 @@ const contactData = [
 const Contact = () => {
   return (
     <div className="contact-container">
-      <p className="contact-font">Feel Free to contact me :D</p>
+      <p className="contact-font">Feel free to contact me :D</p>
       <ul>
         {contactData.map(contact => (
           <li style={{ display: 'inline-block' }}>

@@ -3,12 +3,12 @@ export default function sketch(p) {
   let a = 0;
   let b = 0;
   p.setup = function() {
-    p.createCanvas(p.windowWidth, p.windowHeight);
+    p.createCanvas(p.windowWidth, p.windowHeight * 0.8);
     p.colorMode(p.HSL, 360);
     hue = 0;
   };
   p.windowResized = function() {
-    p.resizeCanvas(p.windowWidth, p.windowHeight);
+    p.resizeCanvas(p.windowWidth, p.windowHeight * 0.8);
   };
   p.draw = function() {
     //p.background(220);

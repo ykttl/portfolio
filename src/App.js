@@ -14,11 +14,11 @@ class App extends Component {
     return (
       <div>
         <P5Wrapper sketch={this.state.sketch} className="drawing" />
-        <Grid>
-          <Header />
-          <Landing />
-          <Portfolio />
-        </Grid>
+
+        <Header />
+        <Landing />
+        <Portfolio />
+
         <Contact />
       </div>
     );

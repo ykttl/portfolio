@@ -7,13 +7,18 @@ import Data from '../project-data';
 class Portfolio extends Component {
   render() {
     return (
-      <Row className="portfolio-row">
-        {Data.map(project => (
-          <Col xs={12} sm={6} className="portfolio-column">
-            <Project project={project} />
-          </Col>
-        ))}
-      </Row>
+      <div className="portfolio-container">
+        <p className="portfolio-heading">PORTFOLIO</p>
+        <Grid>
+          <Row className="portfolio-row">
+            {Data.map(project => (
+              <Col xs={12} sm={6} className="portfolio-column">
+                <Project project={project} />
+              </Col>
+            ))}
+          </Row>
+        </Grid>
+      </div>
     );
   }
 }

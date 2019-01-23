@@ -4,22 +4,22 @@ import { Grid, Row, Col } from 'react-bootstrap';
 class Landing extends Component {
   render() {
     return (
-      <Row className="justify-content-md-center landing">
-        <Col md="auto">
+      <div className="landing">
+        <div md="auto">
           <div className="landing-container">
-            <h1>Hi! I'm Yuko, a self-taught web developer.</h1>
+            <h1>Hi! I'm Yuko, a front-end developer.</h1>
             <h3>Born and raised in Japan, live in Vancouver.</h3>
           </div>
-          <div>
+          <div className="landing-container">
             <h3>My Skills: </h3>
-            <h2>
+            <h3>
               HTML, CSS, JavaScript (React, Redux),
               <br />
               Node.js, MongoDB
-            </h2>
+            </h3>
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
     );
   }
 }

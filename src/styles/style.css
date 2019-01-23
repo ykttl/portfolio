@@ -136,8 +136,12 @@ a:hover {
 }
 
 .contact-font {
-  font-size: 4rem;
-  padding: 20px;
+  /* /* font-size: 4rem; */
+  /* padding: 20px; */
+  font-size: 3rem;
+  /* font-weight: 500; */
+  padding-top: 30px;
+  color: palevioletred;
   /* font-family: 'Miltonian', cursive; */
 }
 
@@ -146,6 +150,6 @@ ul {
 }
 
 span {
-  font-size: 4em;
-  margin: 20px;
+  font-size: 3em;
+  padding: 5px;
 }

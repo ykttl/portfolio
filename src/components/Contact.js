@@ -11,7 +11,7 @@ const contactData = [
   },
   {
     name: 'fas fa-envelope',
-    link: ''
+    link: 'mailto:example@example.com'
   },
   {
     name: 'fas fa-palette',

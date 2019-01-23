@@ -5,9 +5,20 @@ class Header extends Component {
   render() {
     return (
       <div style={{ margin: '10px' }} className="header">
-        <a href="#">ABOUT</a>
-        <a href="#"> PORTFOLIO</a>
-        <a href="#"> CONTACT</a>
+        <ul className="header-list">
+          <li>
+            <a href="#portfolio" className="menu-item">
+              {' '}
+              PORTFOLIO
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="menu-item">
+              {' '}
+              CONTACT
+            </a>
+          </li>
+        </ul>
       </div>
     );
   }

@@ -5,18 +5,14 @@ class Landing extends Component {
   render() {
     return (
       <div className="landing">
-        <div md="auto">
+        <div className="landing-box">
           <div className="landing-container">
             <h1>Hi! I'm Yuko, a front-end developer.</h1>
             <h3>Born and raised in Japan, live in Vancouver.</h3>
-          </div>
-          <div className="landing-container">
-            <h3>My Skills: </h3>
-            <h3>
-              HTML, CSS, JavaScript (React, Redux),
-              <br />
-              Node.js, MongoDB
-            </h3>
+            <br />
+            <h3 className="blue">My Skills: </h3>
+            <h4>HTML, CSS, JavaScript, React, Redux,</h4>
+            <h4>Node.js, MongoDB</h4>
           </div>
         </div>
       </div>
@@ -36,3 +32,10 @@ export default Landing;
 // >
 // My Project
 // </button>
+
+// <i class="icon devicon-mongodb-plain-wordmark " />
+// <i class="icon devicon-react-original-wordmark " />
+// <i class="icon devicon-html5-plain-wordmark " />
+// <i class="icon devicon-css3-plain-wordmark " />
+// <i class="icon devicon-javascript-plain " />
+// <i className="icon node devicon-nodejs-plain-wordmark " />

@@ -7,8 +7,8 @@ import Data from '../project-data';
 class Portfolio extends Component {
   render() {
     return (
-      <div className="portfolio-container">
-        <p className="portfolio-heading">PORTFOLIO</p>
+      <div className="portfolio-container" id="portfolio">
+        <p className="portfolio-heading">Portfolio</p>
         <Grid>
           <Row className="portfolio-row">
             {Data.map(project => (

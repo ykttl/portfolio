@@ -3,12 +3,31 @@ export default function sketch(p) {
   let a = 0;
   let b = 0;
   p.setup = function() {
-    p.createCanvas(p.windowWidth, p.windowHeight * 0.8);
+    if (
+      navigator.userAgent.indexOf('iPhone') > 0 ||
+      navigator.userAgent.indexOf('iPad') > 0 ||
+      navigator.userAgent.indexOf('iPod') > 0 ||
+      navigator.userAgent.indexOf('Android') > 0
+    ) {
+      p.createCanvas(p.windowWidth, p.windowHeight);
+    } else {
+      p.createCanvas(p.windowWidth, p.windowHeight * 0.8);
+    }
+    // p.createCanvas(p.windowWidth, p.windowHeight * 0.8);
     p.colorMode(p.HSL, 360);
     hue = 0;
   };
   p.windowResized = function() {
-    p.resizeCanvas(p.windowWidth, p.windowHeight * 0.8);
+    if (
+      navigator.userAgent.indexOf('iPhone') > 0 ||
+      navigator.userAgent.indexOf('iPad') > 0 ||
+      navigator.userAgent.indexOf('iPod') > 0 ||
+      navigator.userAgent.indexOf('Android') > 0
+    ) {
+      p.resizeCanvas(p.windowWidth, p.windowHeight);
+    } else {
+      p.resizeCanvas(p.windowWidth, p.windowHeight * 0.8);
+    }
   };
   p.draw = function() {
     //p.background(220);

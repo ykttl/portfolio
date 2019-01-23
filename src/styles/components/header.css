@@ -1,0 +1,13 @@
+header {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+.menu-item {
+  color: palevioletred;
+}
+.menu-item:hover {
+  color: white;
+}

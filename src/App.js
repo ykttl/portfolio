@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './styles/style.css';
 import P5Wrapper from 'react-p5-wrapper';
 //import P5Wrapper from "./P5Wrapper";
 import { Grid, Row, Col } from 'react-bootstrap';
@@ -14,11 +15,9 @@ class App extends Component {
     return (
       <div>
         <P5Wrapper sketch={this.state.sketch} className="drawing" />
-
         <Header />
         <Landing />
         <Portfolio />
-
         <Contact />
       </div>
     );

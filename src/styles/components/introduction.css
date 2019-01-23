@@ -1,0 +1,41 @@
+.landing-page {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.flexbox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.introduction-box {
+  max-width: 50%;
+  padding-bottom: 10%;
+}
+
+@media only screen and (max-width: 1400px) {
+  .introduction-box {
+    max-width: 100%;
+    padding-bottom: 10%;
+  }
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 4rem;
+}
+h3 {
+  font-weight: 400;
+}
+.blue {
+  color: #04b2b1;
+}
+h4 {
+  font-size: 3rem;
+  font-weight: 500;
+}

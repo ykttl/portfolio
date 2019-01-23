@@ -12,6 +12,10 @@ const contactData = [
   {
     name: 'fas fa-envelope',
     link: ''
+  },
+  {
+    name: 'fas fa-palette',
+    link: 'http://otturtle.com/'
   }
 ];
 

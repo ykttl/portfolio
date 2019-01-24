@@ -1,0 +1,14 @@
+.portfolio-container {
+  background: #dcefef;
+  text-align: center;
+}
+
+.portfolio-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-column {
+  padding: 10px;
+  margin-bottom: 30px;
+}

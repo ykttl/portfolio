@@ -1,0 +1,26 @@
+.project-container {
+  height: 100%;
+  padding: 20px 20px 10px;
+  border: solid #04b2b1 1px;
+  background: white;
+}
+
+.screenshot {
+  width: 100%;
+  max-width: 500px;
+  height: 'auto';
+  border: #113865 solid 2px;
+}
+
+.project-skills {
+  margin-top: 15px;
+}
+
+.project-link-btn {
+  background: #04b2b1;
+  color: white;
+  margin: 10px 15px 15px 0px;
+  border: none;
+  font-size: 2rem;
+  padding: 10px;
+}

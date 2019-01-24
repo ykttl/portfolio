@@ -1,34 +1,40 @@
 import React from 'react';
+const keys = require('./keys.js');
 
 const contactData = [
   {
-    name: 'fab fa-github',
+    name: 'github',
+    icon: 'fab fa-github',
     link: 'https://github.com/ykttl'
   },
   {
-    name: 'fab fa-linkedin',
+    name: 'linkedin',
+    icon: 'fab fa-linkedin',
     link: ''
   },
   {
-    name: 'fas fa-envelope',
-    link: 'mailto:example@example.com'
+    name: 'mail',
+    icon: 'fas fa-envelope',
+    link: `mailto:${keys.mail}`
   },
   {
-    name: 'fas fa-palette',
+    name: 'otturtle',
+    icon: 'fas fa-palette',
     link: 'http://otturtle.com/'
   }
 ];
+console.log(keys.mail);
 
 const Contact = () => {
   return (
     <div className="contact-container" id="contact">
-      <p className="contact-font">Contact</p>
+      <p className="heading">Contact</p>
       <ul>
         {contactData.map(contact => (
           <li style={{ display: 'inline-block' }}>
             <a href={contact.link}>
               <span>
-                <i className={contact.name} aria-hidden="true" />
+                <i className={contact.icon} aria-hidden="true" />
               </span>
             </a>
           </li>

@@ -1,0 +1,59 @@
+/*=====General Settings===== */
+body {
+  font-family: 'Rubik', sans-serif;
+}
+.heading {
+  padding-top: 30px;
+  color: palevioletred;
+  font-size: 3rem;
+}
+ul {
+  text-align: center;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 15px;
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*===== Font Size===== */
+.x-large {
+  font-size: 4rem;
+}
+.large {
+  font-size: 3rem;
+}
+.medium {
+  font-size: 2.5rem;
+}
+.small {
+  font-size: 2rem;
+}
+
+/*===== Font Weight===== */
+.bold {
+  font-weight: 500;
+}
+.normal {
+  font-weight: 400;
+}
+
+/*===== Font Color===== */
+.blue-green {
+  color: #04b2b1;
+}
+.dark-blue {
+  color: #113865;
+}
+.pink {
+  color: palevioletred;
+}

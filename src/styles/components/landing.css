@@ -1,0 +1,41 @@
+.landing-container {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.flexbox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.introduction-container {
+  max-width: 50%;
+  padding-bottom: 10%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 959px) {
+  .introduction-container {
+    max-width: 90%;
+    padding-bottom: 20%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .introduction-container {
+    max-width: 90%;
+    padding-bottom: 20%;
+  }
+  .mobile-l {
+    font-weight: 500;
+    font-size: 3rem;
+  }
+  .mobile-m {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+}

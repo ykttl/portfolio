@@ -1,7 +1,7 @@
 export default [
   {
     name: 'Portfolio Site',
-    img: 'screenshot/weather.png',
+    img: 'screenshot/portfolio.png',
     skills: 'React, p5.js',
     demo_link: '',
     github: ''
@@ -9,14 +9,14 @@ export default [
   {
     name: 'Dominion Deck Builder',
     img: 'screenshot/dominion.png',
-    skills: 'React, Redux, Express, Passport, Mongoose, MongoDB',
+    skills: 'React, Redux, Express, Passport, Mongoose, MongoDB, Heroku',
     demo_link: 'https://dominion-deck-builder.herokuapp.com/',
     github: 'https://github.com/ykttl/dominion-deck-builder'
   },
   {
     name: 'Real time Chat and Drawing',
     img: 'screenshot/realtime.png',
-    skills: 'React, Express, Socket.io',
+    skills: 'React, Express, Socket.io, Heroku',
 
     demo_link: 'https://chat-and-canvas.herokuapp.com/',
     github: 'https://github.com/ykttl/realtime-chat-drawing'

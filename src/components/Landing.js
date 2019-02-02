@@ -13,7 +13,7 @@ const Landing = () => {
           </p>
           <br />
           <p className="medium bold blue-green mobile-m">
-            try move mouse on this area! 😆 🌈
+            Try moving the mouse in this area! 😆 🌈
           </p>
         </div>
       </div>

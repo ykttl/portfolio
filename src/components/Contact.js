@@ -8,9 +8,9 @@ const contactData = [
     link: 'https://github.com/ykttl'
   },
   {
-    name: 'linkedin',
-    icon: 'fab fa-linkedin',
-    link: ''
+    name: 'angellist',
+    icon: 'fab fa-angellist',
+    link: 'https://angel.co/yuko-mazurek'
   },
   {
     name: 'mail',
@@ -40,7 +40,7 @@ const Contact = () => {
           </li>
         ))}
       </ul>
-      <p>© 2019 Yuko Kanaki</p>
+      <p>© 2019 Yuko Mazurek</p>
     </div>
   );
 };

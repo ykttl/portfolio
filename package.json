@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ykttl.github.io/website/",
+  "homepage": "https://ykttl.github.io/portfolio/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",

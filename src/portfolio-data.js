@@ -3,8 +3,8 @@ export default [
     name: 'Portfolio Site',
     img: 'screenshot/portfolio.png',
     skills: 'React, p5.js',
-    demo_link: '',
-    github: ''
+    demo_link: 'https://ykttl.github.io/portfolio/',
+    github: 'https://github.com/ykttl/portfolio'
   },
   {
     name: 'Dominion Deck Builder',
@@ -24,14 +24,14 @@ export default [
   {
     name: 'Music and Lyrics',
     img: 'screenshot/music-lyrics.png',
-    skills: 'React, Redux',
+    skills: 'React, Redux, APIs ( YouTube and Musixmatch )',
     demo_link: 'https://ykttl.github.io/music-and-lyrics/',
     github: 'https://github.com/ykttl/music-and-lyrics'
   },
   {
     name: 'Travel The World!',
     img: 'screenshot/travel.png',
-    skills: 'React',
+    skills: 'React, APIs ( Wikipedia, Flickr and Leaflet )',
     demo_link: 'https://ykttl.github.io/travel-the-world/',
     github: 'https://github.com/ykttl/travel-the-world'
   },

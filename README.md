@@ -1,3 +1,3 @@
 # My portfolio site
 
-made with HTML, CSS, React, p5.js
+Made with Bootstrap, React, p5.js

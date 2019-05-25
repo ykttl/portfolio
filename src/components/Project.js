@@ -8,11 +8,14 @@ const Project = props => {
       <img src={props.project.img} className="screenshot" />
 
       <p className="small dark-blue project-skills">{props.project.skills}</p>
-      <button className="project-link-btn">
-        <a href={props.project.demo_link}>
-          View Site <i class="fas fa-desktop" />
-        </a>
-      </button>
+      {props.project.demo_link !== 'N/A' && (
+        <button className="project-link-btn">
+          <a href={props.project.demo_link}>
+            View Site <i class="fas fa-desktop" />
+          </a>
+        </button>
+      )}
+
       <button className="project-link-btn">
         <a href={props.project.github}>
           GitHub <i class="fab fa-github" />

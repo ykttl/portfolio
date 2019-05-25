@@ -7,11 +7,25 @@ export default [
     github: 'https://github.com/ykttl/portfolio'
   },
   {
+    name: 'Period Tracker',
+    img: 'screenshot/period.png',
+    skills: 'React, Chart.js, Firebase',
+    demo_link: 'https://period-tracker-ykttle.firebaseapp.com/',
+    github: 'https://github.com/ykttl/calendar'
+  },
+  {
     name: 'Dominion Deck Builder',
     img: 'screenshot/dominion.png',
     skills: 'React, Redux, Express, Passport, Mongoose, MongoDB, Heroku',
     demo_link: 'https://dominion-deck-builder.herokuapp.com/',
     github: 'https://github.com/ykttl/dominion-deck-builder'
+  },
+  {
+    name: 'Music and Lyrics',
+    img: 'screenshot/music-lyrics.png',
+    skills: 'React, Redux, APIs ( YouTube and Musixmatch )',
+    demo_link: 'https://ykttl.github.io/music-and-lyrics/',
+    github: 'https://github.com/ykttl/music-and-lyrics'
   },
   {
     name: 'Real time Chat and Drawing',
@@ -20,13 +34,6 @@ export default [
 
     demo_link: 'https://chat-and-canvas.herokuapp.com/',
     github: 'https://github.com/ykttl/realtime-chat-drawing'
-  },
-  {
-    name: 'Music and Lyrics',
-    img: 'screenshot/music-lyrics.png',
-    skills: 'React, Redux, APIs ( YouTube and Musixmatch )',
-    demo_link: 'https://ykttl.github.io/music-and-lyrics/',
-    github: 'https://github.com/ykttl/music-and-lyrics'
   },
   {
     name: 'Travel The World!',
@@ -41,6 +48,13 @@ export default [
     skills: 'JavaScript',
     demo_link: 'https://ykttl.github.io/random-TGIF/',
     github: 'https://github.com/ykttl/random-TGIF'
+  },
+  {
+    name: 'Chrome Extension',
+    img: 'screenshot/chrome-extension.png',
+    skills: 'JavaScript',
+    demo_link: 'N/A',
+    github: 'https://github.com/ykttl/chrome-extension'
   },
   {
     name: 'Recipe Note',

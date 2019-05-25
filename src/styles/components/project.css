@@ -24,3 +24,7 @@
   font-size: 2rem;
   padding: 10px;
 }
+
+.project-link-btn:visited {
+  border: none;
+}

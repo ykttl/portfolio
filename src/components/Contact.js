@@ -40,7 +40,7 @@ const Contact = () => {
           </li>
         ))}
       </ul>
-      <p>© 2019 Yuko Mazurek</p>
+      <p>© 2019 Yuko Kanaki Mazurek</p>
     </div>
   );
 };

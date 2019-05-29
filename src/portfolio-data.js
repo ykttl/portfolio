@@ -3,7 +3,7 @@ export default [
     name: 'Portfolio Site',
     img: 'screenshot/portfolio.png',
     skills: 'React, p5.js',
-    demo_link: 'https://ykttl.github.io/portfolio/',
+    demo_link: 'N/A',
     github: 'https://github.com/ykttl/portfolio'
   },
   {
@@ -28,19 +28,19 @@ export default [
     github: 'https://github.com/ykttl/music-and-lyrics'
   },
   {
+    name: 'Travel The World!',
+    img: 'screenshot/travel.png',
+    skills: 'React, APIs ( Wikipedia, Flickr and Leaflet )',
+    demo_link: 'https://ykttl.github.io/travel-the-world/',
+    github: 'https://github.com/ykttl/travel-the-world'
+  },
+  {
     name: 'Real time Chat and Drawing',
     img: 'screenshot/realtime.png',
     skills: 'React, Express, Socket.io, Heroku',
 
     demo_link: 'https://chat-and-canvas.herokuapp.com/',
     github: 'https://github.com/ykttl/realtime-chat-drawing'
-  },
-  {
-    name: 'Travel The World!',
-    img: 'screenshot/travel.png',
-    skills: 'React, APIs ( Wikipedia, Flickr and Leaflet )',
-    demo_link: 'https://ykttl.github.io/travel-the-world/',
-    github: 'https://github.com/ykttl/travel-the-world'
   },
   {
     name: 'Random TGIF!',

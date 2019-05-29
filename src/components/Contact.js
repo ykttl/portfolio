@@ -10,7 +10,7 @@ const contactData = [
   {
     name: 'angellist',
     icon: 'fab fa-angellist',
-    link: 'https://angel.co/yuko-mazurek'
+    link: keys.angelList
   },
   {
     name: 'mail',
@@ -21,9 +21,13 @@ const contactData = [
     name: 'otturtle',
     icon: 'fas fa-palette',
     link: 'http://otturtle.com/'
+  },
+  {
+    name: 'twitter',
+    icon: 'fab fa-twitter',
+    link: keys.twitter
   }
 ];
-console.log(keys.mail);
 
 const Contact = () => {
   return (

@@ -21,11 +21,6 @@ const contactData = [
     name: 'otturtle',
     icon: 'fas fa-palette',
     link: 'http://otturtle.com/'
-  },
-  {
-    name: 'twitter',
-    icon: 'fab fa-twitter',
-    link: keys.twitter
   }
 ];
 

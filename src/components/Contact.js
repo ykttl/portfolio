@@ -5,23 +5,18 @@ const contactData = [
   {
     name: 'github',
     icon: 'fab fa-github',
-    link: 'https://github.com/ykttl'
+    link: 'https://github.com/ykttl',
   },
   {
     name: 'angellist',
     icon: 'fab fa-angellist',
-    link: keys.angelList
+    link: keys.angelList,
   },
   {
     name: 'mail',
     icon: 'fas fa-envelope',
-    link: `mailto:${keys.mail}`
+    link: `mailto:${keys.mail}`,
   },
-  {
-    name: 'otturtle',
-    icon: 'fas fa-palette',
-    link: 'http://otturtle.com/'
-  }
 ];
 
 const Contact = () => {
@@ -29,7 +24,7 @@ const Contact = () => {
     <div className="contact-container" id="contact">
       <p className="heading">Contact</p>
       <ul>
-        {contactData.map(contact => (
+        {contactData.map((contact) => (
           <li style={{ display: 'inline-block' }}>
             <a href={contact.link}>
               <span>
@@ -39,9 +34,15 @@ const Contact = () => {
           </li>
         ))}
       </ul>
-      <p>© 2019 Yuko Kanaki Mazurek</p>
+      <p>© 2019 Yuko </p>
     </div>
   );
 };
 
 export default Contact;
+
+// {
+//   name: '',
+//   icon: 'fas fa-palette',
+//   link: ''
+// }

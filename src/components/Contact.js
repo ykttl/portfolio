@@ -7,11 +7,7 @@ const contactData = [
     icon: 'fab fa-github',
     link: 'https://github.com/ykttl',
   },
-  {
-    name: 'angellist',
-    icon: 'fab fa-angellist',
-    link: keys.angelList,
-  },
+
   {
     name: 'mail',
     icon: 'fas fa-envelope',
@@ -46,3 +42,9 @@ export default Contact;
 //   icon: 'fas fa-palette',
 //   link: ''
 // }
+
+// {
+//   name: 'angellist',
+//   icon: 'fab fa-angellist',
+//   link: keys.angelList,
+// },
